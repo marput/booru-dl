@@ -1,0 +1,28 @@
+#+STARTUP: overview
+#+TITLE: booru-dl
+#+CREATOR: marput
+#+LANGUAGE: en
+#+OPTIONS: num:nil
+
+** Table of contents
+   - [[https://github.com/marput/booru-dl#overview][Overview]]
+   - [[https://github.com/marput/booru-dl#installation][Installation]]
+   - [[https://github.com/marput/booru-dl#usage][Usage]]
+   - [[https://github.com/marput/booru-dl#examples][Examples]]
+   - [[https://github.com/marput/booru-dl#supported-sites][Supported sites]]
+     
+** Overview
+
+** Installation
+
+** Usage
+
+** Examples
+
+** Supported sites
+   - Danbooru/Moebooru based
+     1. [[https://danbooru.donmai.us][Danbooru]]
+     2. [[https://lolibooru.moe][Lolibooru]]
+     3. [[https://safebooru.donmai.us][Safebooru (Danbooru)]]
+     4. [[https://sakugabooru.com][Sakugabooru]]
+   - Gelbooru based

@@ -30,23 +30,27 @@
     python booru-dl.py --booru="some booru" --tags="some tags"
   #+END_SRC
   Optional arguments:
-  | Name       | Type   | Description                                                                                      | Used at  |
-  |------------+--------+--------------------------------------------------------------------------------------------------+----------|
-  | --url      | STRING | Url of the site you want to download images from                                                 | ALL      |
-  |------------+--------+--------------------------------------------------------------------------------------------------+----------|
-  | --booru    | STRING | Supported booru from which to download images (used in tandem with --tags)                       | ALL      |
-  |------------+--------+--------------------------------------------------------------------------------------------------+----------|
-  | --tags     | STRING | Valid tag string for a site, separated by commas. eg. "big_breasts,touhou" on danbooru           | ALL      |
-  |------------+--------+--------------------------------------------------------------------------------------------------+----------|
-  | --path     | STRING | Valid path where the images will get saved. It doesn't automatically create directory trees.     | ALL      |
-  |------------+--------+--------------------------------------------------------------------------------------------------+----------|
-  | --ratios   | FLOAT  | Tolerable image width/height ratios. Supports ranges, separated by commas.                       | KONACHAN |
-  |------------+--------+--------------------------------------------------------------------------------------------------+----------|
-  | --login    | STRING | Username you login with to the site. Used to access member only content, required on some sites. | ALL      |
-  |------------+--------+--------------------------------------------------------------------------------------------------+----------|
-  | --password | STRING | Password you login with to the site. Used in tandem with password.                               | ALL      |
-  |------------+--------+--------------------------------------------------------------------------------------------------+----------|
-  
+  | Name                 | Type   | Description                                                                                      | Used at  |
+  |----------------------+--------+--------------------------------------------------------------------------------------------------+----------|
+  | --url                | STRING | Url of the site you want to download images from                                                 | ALL      |
+  |----------------------+--------+--------------------------------------------------------------------------------------------------+----------|
+  | --booru              | STRING | Supported booru from which to download images (used in tandem with --tags)                       | ALL      |
+  |----------------------+--------+--------------------------------------------------------------------------------------------------+----------|
+  | --tags               | STRING | Valid tag string for a site, separated by commas. eg. "big_breasts,touhou" on danbooru           | ALL      |
+  |----------------------+--------+--------------------------------------------------------------------------------------------------+----------|
+  | --path               | STRING | Valid path where the images will get saved. It doesn't automatically create directory trees.     | ALL      |
+  |----------------------+--------+--------------------------------------------------------------------------------------------------+----------|
+  | --ratios             | FLOAT  | Tolerable image width/height ratios. Supports ranges, separated by commas.                       | KONACHAN |
+  |----------------------+--------+--------------------------------------------------------------------------------------------------+----------|
+  | --login              | STRING | Username you login with to the site. Used to access member only content, required on some sites. | ALL      |
+  |----------------------+--------+--------------------------------------------------------------------------------------------------+----------|
+  | --password           | STRING | Password you login with to the site. Used in tandem with password.                               | ALL      |
+  |----------------------+--------+--------------------------------------------------------------------------------------------------+----------|
+  | -m                   | BOOL   | Write exif metadata to files. On exhentai creates a separate .txt file with tags                 | ALL      |
+  |----------------------+--------+--------------------------------------------------------------------------------------------------+----------|
+  | --prioritize-torrent | BOOL   | Prioritize torrents when downloading from exhentai                                               | EXHENTAI |
+  |----------------------+--------+--------------------------------------------------------------------------------------------------+----------|
+  |                      |        |                                                                                                  |          |
 ** Examples
 
 ** Supported sites

@@ -24,7 +24,7 @@
      - [[https://www.crummy.com/software/BeautifulSoup/bs4/doc/][BeautifulSoup]]
      - [[https://transmissionbt.com/download/][(Optional) Transmission]]
      - [[https://exiftool.org/install.html][(Optional) Exiftool]]
-** COMMENT Usage
+** Usage
   #+BEGIN_SRC python
     python booru-dl.py --url="some url" 
     python booru-dl.py --booru="some booru" --tags="some tags"
